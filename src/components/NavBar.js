@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { Navbar, Container, Nav} from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../assets/logo.jpg';
 import NavIcon1 from '../assets/nav-icon1.jpg';
 import NavIcon2 from '../assets/nav-icon2.jpg';
 import NavIcon3 from '../assets/nav-icon3.jpg';
 
 export const NavBar = () => {
-    const [activeLink, setActiveLink] = useState['home'];
+    const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -30,10 +30,10 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                    <img scr={'logo'} alt="Logo" />
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <span className="navbar-toggler-icon"></span>
-                
+                    <img scr={logo} alt="Logo" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" >
+                <span className="navbar-toggler-icon"></span>
+                </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link': 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
