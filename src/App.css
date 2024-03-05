@@ -27,6 +27,11 @@ body {
   padding-top: 25px;
 }
 
+.mission {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
