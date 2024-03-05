@@ -42,7 +42,9 @@ I love to create digitally, with my hands, and using my voice. I enjoy combining
      <h3>Languages: </h3>
      <h6>● Fluent in English; Intermediate Proficiency in Mandarin</h6>
      <h6>● Beginning Proficiency in Spanish</h6>
+     <div className='bottom'></div>
     </div>
+
   );
 }
 
