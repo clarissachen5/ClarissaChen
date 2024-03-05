@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../assets/logo.jpg';
-import NavIcon1 from '../assets/nav-icon1.jpg';
-import NavIcon2 from '../assets/nav-icon2.jpg';
-import NavIcon3 from '../assets/nav-icon3.jpg';
+import NavIcon1 from '../assets/nav-icon1.png';
+import NavIcon2 from '../assets/nav-icon2.png';
+import NavIcon3 from '../assets/nav-icon3.jpeg';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -29,8 +29,8 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                    <img scr={logo} alt="Logo" />
+                <Navbar.Brand href="#home"></Navbar.Brand>
+                    {/* <img scr={logo} alt="Logo" /> */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" >
                 <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
@@ -42,9 +42,9 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="addLinktoSocial"><img src={NavIcon1} alt=""/></a>
-                        <a href="addLinktoSocial"><img src={NavIcon2} alt=""/></a>
-                        <a href="addLinktoSocial"><img src={NavIcon3} alt=""/></a>
+                        <a href="http://www.linkedin.com/in/clarissachen5"><img src={NavIcon1} alt=""/></a>
+                        <a href="https://github.com/clarissachen5"><img src={NavIcon2} alt=""/></a>
+                        <a href="mailto:clchen5@bu.edu"><img src={NavIcon3} alt=""/></a>
                    
                     </div>
 
