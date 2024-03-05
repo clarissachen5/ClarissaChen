@@ -19,15 +19,29 @@ function App() {
 I love to create digitally, with my hands, and using my voice. I enjoy combining my interests in technology and art to positively impact my community. I value new perspectives and helping my team in every way I can.</h4></div>
     
 <div className="image-row">
-      <img src="headshot.jpeg" alt="Headshot" />
-      <img src="hawaii.jpeg" alt="Hawaii" />
-      <img src="ski.jpeg" alt="Ski" />
+      <img src={"/assets/headshot.jpeg"} alt="Headshot" />
+      <img src={"/assets/hawaii.jpeg"} alt="Hawaii" />
+      <img src={"/assets/ski.jpeg"} alt="Ski" />
     </div>
     <Experiences />
      
      <Skills />
 
      <Projects />
+
+     <div className='title'></div>
+     <h2>Classes </h2>
+     <h6>● Algorithms</h6>
+     <h6>● Foundations of Data Science</h6>
+     <h6>● Probability in CS</h6>
+     <h6>● Computer Systems</h6>
+     <h6>● Linear Algebra</h6>
+    
+
+    <div className='title'></div>
+     <h3>Languages: </h3>
+     <h6>● Fluent in English; Intermediate Proficiency in Mandarin</h6>
+     <h6>● Beginning Proficiency in Spanish</h6>
     </div>
   );
 }
