@@ -1,4 +1,4 @@
-import headshot from '../assets/headshot.jpeg';
+// import headshot from '../assets/headshot.jpeg';
 export const Skills = () => {
     return (
         <div className="skill-bx">

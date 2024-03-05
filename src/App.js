@@ -5,6 +5,7 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Experiences } from  './components/Experiences';
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -17,6 +18,11 @@ function App() {
 
 I love to create digitally, with my hands, and using my voice. I enjoy combining my interests in technology and art to positively impact my community. I value new perspectives and helping my team in every way I can.</h4></div>
     
+<div className="image-row">
+      <img src="headshot.jpeg" alt="Headshot" />
+      <img src="hawaii.jpeg" alt="Hawaii" />
+      <img src="ski.jpeg" alt="Ski" />
+    </div>
     <Experiences />
      
      <Skills />
