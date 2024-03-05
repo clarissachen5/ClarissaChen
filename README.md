@@ -1,6 +1,7 @@
 
 When you clone the repo, you should be able to run my site by typing "npm start" into the terminal. 
 
+Here is a link to my video demo: https://drive.google.com/file/d/1qLDPu6QG3OFiPiqfwR_dX8WUDSHRJSYZ/view?usp=sharing
 
 
 
