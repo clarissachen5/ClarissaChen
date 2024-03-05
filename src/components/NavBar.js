@@ -30,7 +30,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                    <img scr={''} alt="Logo" />
+                    <img scr={'logo'} alt="Logo" />
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <span className="navbar-toggler-icon"></span>
                 
@@ -42,9 +42,9 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="addLinktoSocial"><img src={} alt=""/></a>
-                        <a href="addLinktoSocial"><img src={} alt=""/></a>
-                        <a href="addLinktoSocial"><img src={} alt=""/></a>
+                        <a href="addLinktoSocial"><img src={NavIcon1} alt=""/></a>
+                        <a href="addLinktoSocial"><img src={NavIcon2} alt=""/></a>
+                        <a href="addLinktoSocial"><img src={NavIcon3} alt=""/></a>
                    
                     </div>
 
