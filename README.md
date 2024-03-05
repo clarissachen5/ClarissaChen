@@ -1,3 +1,21 @@
+
+When you clone the repo, you should be able to run my site by typing "npm start" into the terminal. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
